@@ -90,7 +90,7 @@ button { font: inherit; }
 .section-label::after { content: ""; width: 60px; height: 1px; background: var(--line); }
 .section-label.light { color: rgba(255,255,255,.55); }
 .section-label.light::after { background: rgba(255,255,255,.25); }
-.exact-intro { position: relative; display: grid; grid-template-columns: .65fr 1.35fr; gap: clamp(3rem, 7vw, 7rem); align-items: start; background: var(--paper); }
+.exact-intro { position: relative; display: grid; grid-template-columns: 1.35fr .65fr; gap: clamp(3rem, 7vw, 7rem); align-items: start; background: var(--paper); }
 .exact-intro .intro-rule { width: 110px; height: 2px; margin-bottom: 3rem; background: linear-gradient(90deg, var(--red) 0 38%, var(--navy) 38% 100%); }
 .club-title-row { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2.3rem; }
 .club-overview h2 { max-width: 600px; margin: 0; }
