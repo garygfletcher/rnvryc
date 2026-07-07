@@ -391,7 +391,7 @@ footer { padding: 75px max(5vw, calc((100vw - 1280px)/2)) 25px; background: var(
   .nav-group.open:hover .dropdown { max-height: 300px; padding: 8px 0; }
   .programme { grid-template-columns: 1fr; }
   .programme-image { min-height: 560px; }
-  .exact-intro { grid-template-columns: 1fr 1fr; }
+  .exact-intro { grid-template-columns: 1.35fr .65fr; }
   .exact-benefits { grid-template-columns: repeat(2, 1fr); }
   .experiences-heading { grid-template-columns: 1fr 2fr; }
   .experiences-heading > p { grid-column: 2; }
